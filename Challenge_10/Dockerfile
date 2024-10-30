@@ -8,4 +8,4 @@ COPY requirements.txt /app/
 RUN pip install --no-cache-dir -r requirements.txt
 # Copy all Python files from the host's current folder into the container's
 COPY . /app/
-CMD [ “python”, “run.py” ]
+CMD [ "python", "run.py" ]
